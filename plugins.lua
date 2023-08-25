@@ -98,8 +98,12 @@ local plugins = {
       cut_key = "x",
       override_del = true,
       }
-  }
+  },
 
+  {
+    "lambdalisue/suda.vim",
+    lazy = false,
+  }
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
