@@ -101,6 +101,11 @@ local plugins = {
   },
 
   {
+    "mtdl9/vim-log-highlighting",
+    lazy = false,
+  },
+
+  {
     "lambdalisue/suda.vim",
     lazy = false,
   }
